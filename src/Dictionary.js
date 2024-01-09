@@ -6,11 +6,11 @@ export default function Dictionary() {
   const [keyWord, setKeyWord] = useState(null);
   const [results, setResults] = useState(null);
   function handleResponse(response) {
-    setResults(response.data);
+    setResults(response.data[0]);
   }
   function Search(event) {
     event.preventDefault();
-    let url = `https://api.shecodes.io/dictionary/v1/define?word=${keyWord}&key=34f2a007t4073b7ac44010a0e7f0b6co`;
+    let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
     axios.get(url).then(handleResponse);
   }
   function handleKeyWord(event) {
