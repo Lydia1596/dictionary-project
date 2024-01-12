@@ -17,6 +17,7 @@ function App() {
             Open-Sourced On GitHub
           </a>
           .
+          <br />
         </footer>
       </div>
     </div>

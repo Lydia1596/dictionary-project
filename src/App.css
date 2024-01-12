@@ -17,6 +17,14 @@ body {
   text-align: center;
 }
 
+.definition {
+  color: black;
+}
+
+.example {
+  opacity: 0.8;
+}
+
 h2 {
   font-size: 48px;
   padding-bottom: 15px;
