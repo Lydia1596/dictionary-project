@@ -50,6 +50,14 @@ section {
   padding: 30px;
 }
 
+.synonyms li {
+  color: #885df1;
+  display: inline-block;
+  font-style: italic;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
 ul {
   list-style-type: none;
 }
