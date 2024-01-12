@@ -5,8 +5,10 @@ export default function Phonetics(props) {
   if (props.data.audio && props.data.text) {
     return (
       <div className="phonetics">
-        <ReactAudioPlayer src={props.data.audio} controls />
-        <h3>{props.data.text}</h3>
+        <p>
+          <ReactAudioPlayer src={props.data.audio} controls />
+          <strong className="text">{props.data.text}</strong>
+        </p>
       </div>
     );
   } else {

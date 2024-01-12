@@ -7,6 +7,17 @@ function App() {
       <div className="container">
         <header className="App-header">Dictionary</header>
         <Dictionary />
+        <footer>
+          This project was coded by Lydia Prentice and is{" "}
+          <a
+            href="https://github.com/Lydia1596/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-Sourced On GitHub
+          </a>
+          .
+        </footer>
       </div>
     </div>
   );

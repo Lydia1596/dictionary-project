@@ -1,9 +1,53 @@
+a {
+  color: #885df1;
+}
+
 .App-header {
   font-size: 60px;
+  font-weight: bold;
+}
+
+body {
+  background-color: #eeeeee;
+  color: #393e46;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
   text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+input {
+  background-color: #f7f7f7;
+  border: 1px solid #929aab;
+  border-radius: 6px;
+  padding: 8px;
+  width: 100%;
+}
+
+.phonetics .text {
+  bottom: 15px;
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+section {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 20px;
+  padding: 30px;
 }
 
 ul {
